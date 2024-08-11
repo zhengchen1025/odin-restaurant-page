@@ -3,6 +3,7 @@ import { loadHome } from "./loadHome";
 import { loadMenu } from "./loadMenu";
 import { loadPage } from "./loadPage";
 
+
 document.addEventListener("DOMContentLoaded", () => {
   loadPage();
 

@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    background: no-repeat center/100%  url('./background.jpg');
+}
+
+#content {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 100px;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.9em;
+    color: white;
+    margin: 0.6em 0.5em;
+}
+
+p {
+    font-size: 70px;
+    color: rgb(9, 52, 88);
+    text-align: center;
+}
+
+.home, .about , .menu {
+    border: 3px gold solid;
+    background-image: linear-gradient(-180deg, #37AEE2 0%, #1E96C8 100%);
+    opacity: 0.9;
+    width: 80%;
+    height: 80%;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+button {
+    box-sizing: border-box;
+    font-size: 2em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    margin: 0.5em 0.5em;
+    color: #FFFFFF;
+    background-image: linear-gradient(-180deg, #37AEE2 0%, #1E96C8 100%);
+    border-radius: .5rem;
+    width: 120px;
+    opacity: 0.9;
+    border: 0;
+    padding: 0.2rem 0.8rem;
+    cursor: pointer;
+}
+
